@@ -1,0 +1,173 @@
+
+body{
+  padding-top:70px;
+  background-image: linear-gradient(120deg,  rgba(154, 209, 227, 0.991),rgba(237, 161, 174, 0.22),rgba(226, 223, 48, 0.306));
+  
+  text-align:center;
+}
+p{
+  padding:0;
+  margin:0;
+}
+
+
+.version-span{
+  font-family:noto sans;
+  background-color:rgba(255, 196, 0, 0.781);
+  cursor:pointer;
+  padding:8px;
+  border:none;
+  border-radius:6px;
+  margin-right:8px;
+  color:black;
+}
+.version-description{
+  font-size:14px;
+  font-family:noto sans;
+  margin-top:10px;
+  color:rgba(73, 71, 71, 0.847);
+}
+
+.img-container{
+ 
+  height:160px;
+  padding-top:30px;
+  padding-bottom:10px;
+}
+
+.bootstrap-logo{
+  height:140px;
+}
+.middle-title{
+  display:flex;
+  justify-content:center;
+  font-family:noto sans;
+  font-size:44px;
+  
+}
+
+.description-div{
+  display:flex;
+  font-family:noto sans;
+  font-size:22px;
+  justify-content:center;
+  line-height: 34px;
+  color:rgba(73, 71, 71, 0.847);
+  margin-bottom:20px;
+}
+
+.flex-buttons{
+  display:flex;
+  justify-content:center;
+  margin-bottom:22px;
+
+}
+
+.copy-div{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  font-family:space mono;
+  font-size:12px;
+  padding:16px 30px;
+  border-style:solid;
+  border-width:1px;
+  width:200px;
+  margin-right:12px;
+  background-color:lightgrey;
+  border-color:gray;
+  
+}
+.read-docs-button{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  padding:16px 26px;
+  background-color:rgb(102, 0, 204);
+  border-radius:4px;
+  border:none;
+  color:white;
+  font-weight:bold;
+  font-size:16px;
+  font-weight:bold;
+  cursor:pointer;
+
+}
+
+.clipboard-img{
+  cursor:pointer;
+  height:24px;
+  margin-left:6px;
+  opacity:0.7;
+}
+.read-img{
+  height:24px;
+  margin-right:12px;
+}
+.download-link-div{
+  font-family:noto sans;
+  font-size:16px;
+  color:gray;
+}
+.text-dec{
+  text-decoration: underline;
+  margin-left:8px;
+  margin-right:8px;
+  cursor:pointer;
+  
+}
+.bold-span{
+  
+  font-weight:bold;
+  color:rgba(0, 0, 0, 0.601);
+
+}
+.ad-div{
+  height:120px;
+  display:flex;
+  align-items:center;
+  width:400px;
+  background-color:rgba(239, 239, 239, 0.794);
+  margin-left:464px;
+  margin-top:34px;
+  margin-bottom:60px;
+}
+.ad-description{
+  margin-left:12px;
+  width:250px;
+  text-align: left;
+  color:rgba(0, 0, 0, 0.744);
+}
+
+
+.add-img{
+  height:100px;
+}
+
+.arrow-img{
+  height:80px;
+  margin-bottom:40px;
+  border-radius:12px;
+}
+.installation-docs{
+  color:rgb(0, 140, 255);
+  font-size:18px;
+  font-weight:bold;
+  font-family:noto sans;
+  cursor:pointer;
+  
+}
+.arrow-span{
+  margin-right:8px;
+  text-decoration:underline;
+
+}
+.arrow-span:hover{
+  margin-right:14px;
+
+}
+
+.installation-docs:hover{
+  color:rgb(7, 47, 158);
+  
+}
